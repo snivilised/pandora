@@ -11,6 +11,7 @@ builds:
       - windows
       - darwin
     # this is a go library
+    no_main_check: true
     skip: true
 archives:
   - format: tar.gz
