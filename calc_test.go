@@ -30,4 +30,13 @@ var _ = Describe("Calc", func() {
 			Expect(calc.Subtract(42).Result()).To(Equal(-15))
 		})
 	})
+
+	Context("Multiply", func() {
+		It("should: multiply", func() {
+			calc := pandora.Calc{
+				Accumulator: 9,
+			}
+			Expect(calc.Multiply(42).Result()).To(Equal(378))
+		})
+	})
 })
