@@ -24,3 +24,5 @@ ginkgo.report
 *.log
 
 dist/
+
+dist/
