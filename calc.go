@@ -17,3 +17,8 @@ func (c *Calc) Add(operand int) *Calc {
 	c.Accumulator += operand
 	return c
 }
+
+func (c *Calc) Subtract(operand int) *Calc {
+	c.Accumulator -= operand
+	return c
+}
